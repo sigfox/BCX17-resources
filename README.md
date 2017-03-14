@@ -33,12 +33,12 @@ The LED should blink for ~6 seconds, while its sending a first message
 
 Log-in to your [Sigfox account](http://backend.sigfox.com), and then access the `DEVICE TYPE` menu, then click on the name of the newly created device type. It should be called `Sensit EVK`
 
-####Access your device
+#### Access your device
 
 Enter the `Associated Devices` menu, and click on the ID of the only one listed.
 ![Associated devices](./img/devices.png)
 
-###Check messages
+### Check messages
 ![Messages menu](./img/device-menu.png)
 
 Your incoming messages will appear here, listing the time of reception, raw data payload & reception quality indicators.
