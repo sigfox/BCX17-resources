@@ -17,9 +17,12 @@
 You need the unique `ID` of the device (printed on the back), and its `PAC`(provided 1 to 1)
 
 Head out to the [Sigfox backend](https://backend.sigfox.com/activate/sensit) and fill in the form.  
+(If you already have a Sigfox account, log in first)
+
+
 You will receive an automated email asking you to setup your password and confirm your account
 
-You're good to go
+You're good to go!
 
 ### First message
 
