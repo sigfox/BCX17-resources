@@ -62,6 +62,16 @@ If you need to send more than that for testing purposed during the week end, [co
 [TBC w/ Vivek]
 
 
+## Using the Sigfox API
+
+⚠ API should be used as a sync/backup mechanism.  
+We recommend using the callbacks (push) as primary data access channel. No need to poll the API every second ;)
+
+Extensive documentation of the Sigfox API available [here](./Sigfox-API.md) 
+
+You'll also find the API documentation in the `Group` > `Api Access` menu.  
+Once you set up a pair of API credentials (look for the `new` button on the top right), you'll have a link to the documentation matching the access rights you chose.
+
 ## Hono Platform
 
 Mohammad Zubair (@Bosch SI) wrote a Sigfox adapter for the [Eclipse Hono](http://hono.bosch-iot-suite.com) platform.  
