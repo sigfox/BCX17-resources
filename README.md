@@ -65,4 +65,4 @@ If you need to send more than that for testing purposed during the week end, [co
 ## Hono Platform
 
 Mohammad Zubair (@Bosch SI) wrote a Sigfox adapter for the [Eclipse Hono](http://hono.bosch-iot-suite.com) platform.  
-Read the documentation & step-by-step guide [here](./Sigfox-Hono.md)
+Read the documentation & step-by-step guide [here](./Sigfox-to-hono.md)
