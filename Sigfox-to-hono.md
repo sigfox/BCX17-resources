@@ -26,7 +26,7 @@
 #### Last Device StatusIn order to debug/observe the last call made by your device to the adapter, you can call the following endpoint: `/status/bcx/[deviceid]`
 The endpoint will return the last packet frame sent by your device to the adapter via the Sigfox Backend.
 #### Other Debugging/Status Endpoints* `/status` - General status and uptime information
-* `/status/err - Last reported/known error/exception encountered by the adapter 
+* `/status/err` - Last reported/known error/exception encountered by the adapter 
 ## Payload Format A typical incoming Sigfox payload would look something like this: ```
  {     "time" : "1480717528",     "device" : "sigfox-device-1",     "duplicate" : "false",     "snr" : "18.53"",     "avgSnr" : "32.50",     "rssi" : "-123.00",     "station" : "0DF1",     "lat" : "49.0",     "lng" : "3.0",     "seqNumber” : "31",     "data" : "1234"}
 ```## Limitations 
