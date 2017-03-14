@@ -4,7 +4,8 @@
 * Downlink: GET  `http://hono.bosch-iot-suite.com:10050/dl/bcx/[deviceId]`
 
 ## Setting Up Pre-requisites1. You'll need to register your device id on hono via Hono's registration endpoint### Configuring the Sigfox Backend1. From the Sigfox backend, you'll need to create a Callback for your device and configure with the following parameters (New > Custom Callback)2. Type "Data - Uplink"3. Channel as "URL"4. Send Duplicate - Unchecked5. URL Pattern: `http://hono.bosch-iot-suite.com:10050/telemetry/bcx/{device}`6. HTTP Method: `POST`7. Content-Type: `application/json`8. Body: 
-9. ```
+
+```
 {"time" : "{time}","device" : "{device}", 
 "duplicate" : "{duplicate}", 
 "snr" : "{snr}", 
