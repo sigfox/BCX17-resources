@@ -24,6 +24,11 @@ You will receive an automated email asking you to setup your password and confir
 
 You're good to go!
 
+---
+⚠ It may take up to one hour to attach the device to your account, in case it was previously attached to a demo account.
+> Good things come to those who wait 😉 
+
+
 ### First message
 
 Double-press the Sensit button.  
