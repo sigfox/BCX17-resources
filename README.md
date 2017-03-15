@@ -51,7 +51,31 @@ Your incoming messages will appear here, listing the time of reception, raw data
 
 ### Push data to your server
 
-[TBC]
+To push incoming data to your server, you need to use the _callbacks_ mechanism.  
+Callbacks are configured at the _device type_ level. Which means that the day you'll have 3 millions units of your device, you'll need to set the configuration once for all of them 
+
+#### Access the callbacks menu
+
+In your _device type_ entry, click on the _callbacks_ menu in the left panel.  
+
+#### List of existing callbacks (if any)
+
+The `callbacks` screen list the configured callbacks, and allow you to activate/deactivate any of them on the fly.
+
+![Callbacks](./img/callbacks-list.png)
+
+#### Set up a new callback
+
+On the _callbacks_ page click on the `New` button in the top right corner.  
+
+Select `AWS IoT` or `Azure IoTHub` if you want to use these services, through the easy Sigfox bridge built with them.
+
+Select `custom callback` if you just want to set up a callback to any URL.
+
+Then select `DATA` > `UPLINK` to make sure it will be called upon any incoming transmission.  
+Then set up URI, HTTP method, content type, HTTP headers & request body
+
+![New callback](./img/new-callback.png)
 
 ### Parse the incoming data frame
 
