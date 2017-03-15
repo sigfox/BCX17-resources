@@ -64,7 +64,9 @@ If you need to send more than that for testing purposed during the week end, [co
 
 ## NXP Development board
 
-[TBC w/ Vivek]
+The complete documentation of the `OL2385` development kit is available on [NXP website](http://www.nxp.com/products/rf/low-power-tx-rx-ics/sub-ghz-rf/om2385-sf001-ol2385-wireless-sub-ghz-transceiver-sigfox-development-kit-with-kl43z:OM2385-SF001)
+
+Please get in touch with Vivek Tyagi if you need more information about this kit.
 
 
 ## Using the Sigfox API
