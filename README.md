@@ -54,7 +54,13 @@ Your incoming messages will appear here, listing the time of reception, raw data
 [TBC]
 
 ### Parse the incoming data frame
-[TBC]
+
+Checkout the documentation about the [Sensit](http://sensit.io) frames. 
+The data is sent packed in a few bytes, containing active mode, sensor values, battery status, ...  
+
+* [Uplink messages](./Sensit-uplink-frames.md) : Messages from the device to the network
+* [Downlink messages](./Sensit-downlink-frames.md) : Messages from the network to the device
+
 
 ---
 ⚠ To enforce the ETSI regulation on the 868MHz, the Sensit won't send more than 6 messages per hour (duty cycle).  
